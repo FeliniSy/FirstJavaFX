@@ -1,0 +1,145 @@
+/* Global Styles */
+.root {
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+    -fx-background-color: #f5f5f5;
+}
+
+.rootLayout {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dcdcdc;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 2);
+}
+
+/* Query Input Section */
+.query-box {
+    -fx-spacing: 5;
+    -fx-padding: 5;
+}
+
+.query-label {
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+.query-field {
+    -fx-pref-height: 35px;
+    -fx-font-size: 13px;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-border-color: #cccccc;
+    -fx-padding: 5;
+}
+
+.query-field:focused {
+    -fx-border-color: #4a90e2;
+    -fx-background-color: #f8f8f8;
+}
+
+/* Duration Display */
+.duration-box {
+    -fx-padding: 10;
+    -fx-background-color: #f0f8ff;
+    -fx-border-color: #b0c4de;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+}
+
+.duration-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+/* Results Area */
+.resultArea {
+    -fx-font-family: 'Consolas', monospace;
+    -fx-font-size: 13px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-padding: 5;
+}
+
+/* Run Button */
+.runButton {
+    -fx-background-color: #4a90e2;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-background-radius: 4px;
+    -fx-cursor: hand;
+    -fx-min-width: 120px;
+}
+
+.runButton:hover {
+    -fx-background-color: #3a80d2;
+}
+
+.runButton:pressed {
+    -fx-background-color: #2a70c2;
+}
+
+/* Tab styling */
+.tab-pane {
+    -fx-tab-min-height: 30px;
+    -fx-tab-max-height: 30px;
+}
+
+.tab {
+    -fx-background-color: #e0e0e0;
+    -fx-padding: 5 15;
+    -fx-border-color: #c0c0c0;
+    -fx-border-width: 0 0 0 0;
+}
+
+.tab:selected {
+    -fx-background-color: #ffffff;
+    -fx-focus-color: transparent;
+    -fx-border-color: #4a90e2 #c0c0c0 #ffffff #c0c0c0;
+    -fx-border-width: 2 1 0 1;
+}
+
+.tab-header-background {
+    -fx-background-color: #e6e6e6;
+}
+
+/* Charts */
+.chart {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dcdcdc;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10;
+}
+
+.chart-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.axis {
+    -fx-tick-label-font-size: 12px;
+    -fx-tick-label-fill: #333333;
+}
+
+.chart-legend {
+    -fx-background-color: transparent;
+    -fx-padding: 10;
+}
+
+.chart-bar {
+    -fx-bar-fill: #4a90e2;
+}
+
+/*!* Series colors for bar chart *!*/
+/*.default-color0.chart-bar { -fx-bar-fill: #4a90e2; }*/
+.default-color1.chart-bar { -fx-bar-fill: #ff9966; }
+
+/* Labels */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
