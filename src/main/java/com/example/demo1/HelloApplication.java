@@ -21,8 +21,8 @@ import java.util.List;
 public class HelloApplication extends Application {
 
     private static final String URL = "jdbc:sqlserver://FELINISY;database=Hospital;encrypt=true;trustServerCertificate=true";
-    private static final String USER = "sa";
-    private static final String PASSWORD = "!234";
+    private static final String USER = "***";
+    private static final String PASSWORD = "****";
 
     // Store execution times for historical comparison
     private final List<Long> query1Times = new ArrayList<>();
